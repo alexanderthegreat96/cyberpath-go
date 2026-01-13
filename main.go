@@ -340,6 +340,8 @@ func (g *Maze) PrintMaze() {
 		for c, col := range row {
 			if col.wall {
 				fmt.Print("█")
+			} else if col.State.Water {
+				fmt.Print("F")
 			} else if g.Start.Row == col.State.Row && g.Start.Col == col.State.Col {
 				fmt.Print("A")
 			} else if g.Goal.Row == col.State.Row && g.Goal.Col == col.State.Col {

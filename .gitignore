@@ -1,0 +1,81 @@
+# =====================================
+# Go build artifacts
+# =====================================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Coverage reports
+*.out
+coverage.*
+*.cov
+
+# Go workspace file (Go 1.18+)
+go.work
+go.work.sum
+
+# =====================================
+# Dependency directories (if used)
+# =====================================
+vendor/
+
+# =====================================
+# Build output directories
+# =====================================
+bin/
+dist/
+build/
+out/
+
+# =====================================
+# Logs & runtime files
+# =====================================
+*.log
+*.pid
+*.tmp
+*.cache
+
+# =====================================
+# IDE / Editor files
+# =====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+
+# =====================================
+# OS-specific files
+# =====================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# =====================================
+# Debugging & profiling
+# =====================================
+__debug_bin
+debug
+*.pprof
+
+# =====================================
+# Environment & secrets
+# =====================================
+.env
+.env.*
+!.env.example
+
+# =====================================
+# Optional: generated files
+# =====================================
+*.generated.go
+results/
+./results
